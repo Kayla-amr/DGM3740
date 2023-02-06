@@ -1,0 +1,46 @@
+/* 64em is also 1028px when basefont is 16px */
+
+// @media only screen and (min-width: 64rem) {
+	
+// }
+header, nav, main, footer, .directoryInfo {
+    max-width: 64rem;
+    margin:auto;
+}
+
+header {
+	.companyNL{
+		display: grid;
+		grid-template-columns: repeat(8, 1fr);
+		
+		.cName{
+			font-family: 'Noto Serif Toto', serif;
+			padding-right: 30px;
+			font-size: 20px;
+			grid-column: 1;
+			text-align: right;
+			h2{
+				margin: -30px;
+			}
+		}
+		.logo{
+			width: 150px;
+			padding: 5px;
+			
+		}
+
+	}
+	.companyNumber{
+		padding: 20px 0;
+		margin: 0;
+		grid-column: 8;
+		font-size: 24px;
+		display: flex;
+    	flex-direction: column-reverse;
+	}
+}
+
+
+
+
+/*end large */

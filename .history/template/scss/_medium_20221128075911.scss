@@ -1,0 +1,46 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+	/*BIO*/
+	#bioWrapper {
+		padding: 20px;
+		grid-template-columns: 1fr;
+	}
+
+	#photo {
+		img {
+			width: 75%;
+		}
+	}
+
+	/*ARTICLES*/
+	#articleWrapper {
+		padding: 20px;
+	}
+	#article {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	#articleOne {
+		padding: 0;
+		grid-template-columns: 1fr 3fr 1fr;
+		h3 {
+			grid-column: 2;
+			grid-row: 1;
+		}
+		p {
+			grid-column: 2;
+			grid-row: 2;
+		}
+		img {
+			width: 47%;
+		}
+	}
+	/*PROJECTS*/
+	#projectsWrapper {
+		padding: 20px;
+		height: 100vh;
+	}
+	#projectsWrapper #projects div {
+		grid-template-columns: repeat(3, 1fr);
+	}
+} /*end medium */

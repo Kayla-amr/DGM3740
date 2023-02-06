@@ -1,0 +1,94 @@
+/* 64em is also 1028px when basefont is 16px */
+
+// @media only screen and (min-width: 64rem) {
+	
+// }
+header, nav, main, footer, .directoryInfo {
+    max-width: 64rem;
+    margin:auto;
+}
+
+h3{
+    font-size: 20px;
+}
+
+header {
+	.companyNL{
+		
+		.cName{
+			font-size: 20px;
+			grid-column: 1;
+		}
+		.logo{
+			width: 150px;
+		}
+
+	}
+	.companyNumber{
+		grid-column: 8;
+		font-size: 24px;
+		display: flex;
+    	flex-direction: column-reverse;
+	}
+}
+
+nav button {
+	display: none;
+}
+
+nav{
+	flex-direction: row;
+	ul{
+		display: flex;
+		flex-direction: row;
+		margin: 0 0 0 2vw;
+		padding: 0;
+		border-left: 1px solid rgba(0,0,0,0.1);
+	}
+}
+
+ul > li{
+	float: left;
+	list-style: none;
+	border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+ul li ul{ 
+	z-index: 99;
+	position: absolute;
+	left: -999em;
+	width: 12rem;
+}
+
+ul li a:hover {background: darken(rgb(36, 56, 89),5%);}
+
+
+.blogArticles{
+    .articles{
+        display: grid;
+	    column-gap: 20px;
+	    grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.directoryInfo{
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 12px;
+	.contact div{
+		grid-column: 1;
+		
+	}
+	.newsLetter{
+		grid-column: 2;
+        width: 100%;
+		
+	}
+    .moreInfo{
+        grid-column: 3;
+    }
+}
+
+
+
+
+/*end large */

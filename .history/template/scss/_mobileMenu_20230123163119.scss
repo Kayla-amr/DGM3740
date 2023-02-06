@@ -1,0 +1,18 @@
+#hamburgerBtn{
+	display: none;
+}
+
+.primaryNav{
+	height: 0;
+	overflow: hidden;
+	.open{
+		height: auto;
+	}
+
+	
+}
+.primaryNav li.parent > a::after{
+	content: "\25BC";
+	float:right;
+
+}

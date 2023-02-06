@@ -1,0 +1,30 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+    
+    .blogArticles{
+        font-size: 14px;
+        .articles{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    
+    .directoryInfo{
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 14px;
+        row-gap: 20px;
+        .contact div{
+            grid-column: 1;
+            
+        }
+        .newsLetter{
+            grid-column: 2;
+            input, button{
+                width: 60%;
+            }
+            
+        }
+        .moreInfo{
+            grid-column: 1 /span 2;
+        }
+    }
+} /*end medium */

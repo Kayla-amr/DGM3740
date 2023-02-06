@@ -1,0 +1,24 @@
+#hamburgerBtn{
+	display: block;
+}
+
+.primaryNav{
+	height: 0;
+	overflow: hidden;
+	.open{
+		height: auto;
+	}
+	li ul{
+		display: none;
+	}
+}
+
+.primaryNav li.parent > a::after{
+	content: "\25BC";
+	float:right;
+
+}
+
+.primaryNav:hover ul{
+	display: block;
+}

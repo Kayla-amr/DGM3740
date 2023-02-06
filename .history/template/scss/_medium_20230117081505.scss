@@ -1,0 +1,46 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+	header {
+        .companyNL{
+            
+            .cName{
+                font-size: 20px;
+                grid-column: 1;
+            }
+            .logo{
+                width: 150px;
+            }
+    
+        }
+        .companyNumber{
+            grid-column: 8;
+            font-size: 24px;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+    
+    .blogArticles{
+        .articles{
+            display: grid;
+            column-gap: 20px;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    
+    .directoryInfo{
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 12px;
+        .contact div{
+            grid-column: 1;
+            
+        }
+        .newsLetter{
+            grid-column: 2;
+            
+        }
+        .moreInfo{
+            grid-column: 1 /span 2;
+        }
+    }
+} /*end medium */

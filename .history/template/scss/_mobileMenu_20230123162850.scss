@@ -1,0 +1,15 @@
+#hamburgerBtn{
+	display: none;
+}
+
+.primaryNav{
+	height: 0;
+	overflow: hidden;
+	.open{
+		height: auto;
+	}
+
+	li.parent > a::after{
+		
+	}
+}
