@@ -31,6 +31,7 @@ body {
 
 .mainWrapper {
 	background-color: #d4d4d4;
+	padding: ;
 }
 
 .directoryWrapper {
@@ -48,7 +49,7 @@ body {
 /*--- HEADER ---*/
 header {
 	display: grid;
-	padding: 0 2%;
+	padding: 0;
 	.companyNL {
 		display: grid;
 		grid-template-columns: repeat(8, 1fr);
@@ -157,7 +158,7 @@ nav {
 
 /*--- BLOG ARTICLES ---*/
 .blogArticles {
-	padding: 20px 2%;
+	padding: 20px 0;
 
 	.articles {
 		display: grid;
@@ -196,7 +197,7 @@ nav {
 	line-height: .6cm;
 	column-gap: 20px;
 	color: #f2f2f2;
-	padding: 20px 2%;
+	padding: 20px 0;
 
 	.contact div {
 		padding: 5px 0;

@@ -505,7 +505,7 @@ body {
 /*--- HEADER ---*/
 header {
   display: grid;
-  padding: 0; }
+  padding: 0 2%; }
   header .companyNL {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -592,7 +592,7 @@ nav {
 
 /*--- BLOG ARTICLES ---*/
 .blogArticles {
-  padding: 20px 0; }
+  padding: 20px 2%; }
   .blogArticles .articles {
     display: grid;
     column-gap: 5px;
@@ -624,7 +624,7 @@ nav {
   line-height: .6cm;
   column-gap: 20px;
   color: #f2f2f2;
-  padding: 20px 0; }
+  padding: 20px 2%; }
   .directoryInfo .contact div {
     padding: 5px 0; }
   .directoryInfo .newsLetter {
