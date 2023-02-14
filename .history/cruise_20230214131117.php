@@ -10,9 +10,7 @@ include '_header.php';
         <p>On the other side of the world, Australia and New Zealand are full of wonders to behold! Now, more than ever before, you can get
         phenomenal discounts to cruise the South Pacific. Sail to New Zealand from Sydney, Australia on a 12-day cruise from just $888 per
         person plus taxes.</p>
-        <div class="alignBtn">
         <p class="btn"><a href="#">Read More</a></p>
-        </div>
     </div>
 
     <div>
@@ -20,10 +18,8 @@ include '_header.php';
         <p>On the other side of the world, Australia and New Zealand are full of wonders to behold! Now, more than ever before, you can get
         phenomenal discounts to cruise the South Pacific. Sail to New Zealand from Sydney, Australia on a 12-day cruise from just $888 per
         person plus taxes.</p>
-        <div class="alignBtn">
+        <div class="buttonAlign"></div>
         <p class="btn"><a href="#">Read More</a></p>
-        </div>
-        
     </div>
 
     <div>
@@ -31,10 +27,7 @@ include '_header.php';
         <p>On the other side of the world, Australia and New Zealand are full of wonders to behold! Now, more than ever before, you can get
         phenomenal discounts to cruise the South Pacific. Sail to New Zealand from Sydney, Australia on a 12-day cruise from just $888 per
         person plus taxes.</p>
-
-        <div class="alignBtn">
         <p class="btn"><a href="#">Read More</a></p>
-        </div>
     </div>
 
     <div>
@@ -42,9 +35,7 @@ include '_header.php';
         <p>On the other side of the world, Australia and New Zealand are full of wonders to behold! Now, more than ever before, you can get
         phenomenal discounts to cruise the South Pacific. Sail to New Zealand from Sydney, Australia on a 12-day cruise from just $888 per
         person plus taxes.</p>
-        <div class="alignBtn">
         <p class="btn"><a href="#">Read More</a></p>
-        </div>
     </div>
 </div>
 <?php
