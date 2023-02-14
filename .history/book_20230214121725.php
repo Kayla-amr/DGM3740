@@ -18,9 +18,8 @@ include '_header.php';
     <input type="state" id="state" name="state">
 
     <label for="zipcode">Zipcode</label>
-    <select type="zip" id="zipcode" name="zipcode">
-        <option value="option1">Please Select...</option>
-    </select>
+    <input type="zip" id="zipcode" name="zipcode">
+
     <label for="pNumber">Phone Number</label>
     <input type="tel" id="pNumber" name="pNumber">
 
@@ -29,12 +28,7 @@ include '_header.php';
 
     <label for="cSelection">Cruise Selection</label>
     <select type="text" id="cSelection" name="cSelection">
-        <option value="option1">Please Select...</option>
-        <option value="option2">Cruise 1</option>
-        <option value="option3">Cruise 2</option>
-        <option value="option4">Cruise 3</option>
-        <option value="option5">Cruise 4</option>
-    </select>
+        </select
     
     <button type="submit" value="submit">Submit</button>
 </form>

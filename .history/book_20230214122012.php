@@ -29,7 +29,7 @@ include '_header.php';
 
     <label for="cSelection">Cruise Selection</label>
     <select type="text" id="cSelection" name="cSelection">
-        <option value="option1">Please Select...</option>
+        <option value="option1">Please Select: </option>
         <option value="option2">Cruise 1</option>
         <option value="option3">Cruise 2</option>
         <option value="option4">Cruise 3</option>
