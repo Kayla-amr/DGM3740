@@ -546,6 +546,9 @@ nav {
     display: flex;
     position: relative; }
 
+.parent ul li {
+  list-style-type: none; }
+
 .navSearch {
   display: flex;
   justify-content: end;
@@ -667,6 +670,22 @@ footer {
     color: #f2f2f2;
     text-decoration: none; }
 
+.agentName h1 {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 24px; }
+
+.agentInfo {
+  padding-bottom: 20px;
+  font-size: 16px; }
+  .agentInfo h2 {
+    font-size: 18px;
+    padding: 10px 0; }
+  .agentInfo p {
+    padding: 0 0 20px 0; }
+  .agentInfo ul {
+    list-style-type: none; }
+
 @media only screen and (min-width: 35rem) {
   /* 35em is also 560px when basefont is 16px */ }
 @media only screen and (min-width: 35rem) and (min-width: 35rem) {
@@ -770,6 +789,14 @@ footer {
       width: 100%; }
     .directoryInfo .moreInfo {
       grid-column: 3; }
+
+  .agentName h1 {
+    font-size: 32px; }
+
+  .agentInfo {
+    font-size: 12px; }
+    .agentInfo h2 {
+      font-size: 14px; }
 
   /*end large */ }
 /* end of media query*/

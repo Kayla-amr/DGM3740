@@ -127,9 +127,16 @@ nav {
 }
 
 .agentInfo{
+	padding-bottom: 20px;
 	font-size: 12px;
 	h2{
 		font-size: 14px;
+	}
+	p{
+		padding: 0 0 20px 0;
+	}
+	ul{
+		list-style-type: none;
 	}
 }
 /*end large */
