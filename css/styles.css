@@ -707,6 +707,11 @@ footer {
     padding: 10px;
     border-radius: 5px;
     border: none; }
+  .cruiseForm button {
+    border-radius: 10px;
+    border: none;
+    padding: 10px 0;
+    margin: 10px 0; }
 
 @media only screen and (min-width: 35rem) {
   /* 35em is also 560px when basefont is 16px */ }
@@ -735,13 +740,8 @@ footer {
     font-size: 32px; }
 
   .cruiseForm {
-    width: 40%;
-    font-size: 16px; }
-    .cruiseForm button {
-      border-radius: 10px;
-      border: none;
-      padding: 10px 0;
-      margin: 10px 0; } }
+    width: 30rem;
+    font-size: 16px; } }
 @media only screen and (min-width: 35rem) {
   /*end medium */ }
 /* end of media query*/
