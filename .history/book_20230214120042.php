@@ -29,7 +29,7 @@ include '_header.php';
     <label for="cSelection">Cruise Selection</label>
     <input type="text" id="cSelection" name="cSelection">
     
-    <button type="submit" value="submit">Submit</button>
+    <button></button>
 </form>
 <?php
     include '_footer.php';
