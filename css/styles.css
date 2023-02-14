@@ -712,6 +712,9 @@ footer {
 .agentInfo {
   padding: 20px 2%;
   font-size: 16px; }
+  .agentInfo img {
+    width: 50%;
+    margin: 10px; }
   .agentInfo h2 {
     font-size: 18px;
     padding: 10px 0; }
@@ -777,6 +780,11 @@ footer {
 
   .agentName {
     font-size: 32px; }
+
+  .agentInfo img {
+    float: right;
+    width: 40%;
+    margin: 10px; }
 
   .bookACruise {
     font-size: 32px; }
