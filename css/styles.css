@@ -686,6 +686,7 @@ footer {
     border-radius: 10px;
     border: none;
     padding: 10px;
+    margin: 10px 0;
     width: 10rem;
     text-align: center; }
     .cruiseInfo .btn a {
