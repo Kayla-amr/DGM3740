@@ -688,6 +688,8 @@ footer {
     padding: 10px;
     width: 10rem;
     text-align: center; }
+    .cruiseInfo .btn a {
+      text-decoration: none; }
 
 /*--- AGENTS PAGE ---*/
 .agentName {
