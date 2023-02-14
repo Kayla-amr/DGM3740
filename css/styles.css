@@ -689,7 +689,7 @@ footer {
     border: none;
     padding: 10px;
     margin: 10px 0;
-    width: 10rem;
+    width: 100%;
     text-align: center; }
     .cruiseInfo .btn a {
       color: #f2f2f2;
@@ -766,6 +766,9 @@ footer {
 
   .cruiseTitle {
     font-size: 32px; }
+
+  .cruiseInfo .btn {
+    width: 10rem; }
 
   .agentName {
     font-size: 32px; }
