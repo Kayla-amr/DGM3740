@@ -11,7 +11,7 @@ include '_header.php';
         phenomenal discounts to cruise the South Pacific. Sail to New Zealand from Sydney, Australia on a 12-day cruise from just $888 per
         person plus taxes.</p>
         <p class="btn"><a href="#">Read More</a></p>
-    </div>
+</div>
 
     <div>
         <h2>Hawaii & Mexico Cruises from $899!</h2>
@@ -19,7 +19,7 @@ include '_header.php';
         phenomenal discounts to cruise the South Pacific. Sail to New Zealand from Sydney, Australia on a 12-day cruise from just $888 per
         person plus taxes.</p>
         <p class="btn"><a href="#">Read More</a></p>
-    </div>
+</div>
 
     <div>
         <h2>Florida & Cabo Cruises from $900!</h2>
@@ -27,7 +27,7 @@ include '_header.php';
         phenomenal discounts to cruise the South Pacific. Sail to New Zealand from Sydney, Australia on a 12-day cruise from just $888 per
         person plus taxes.</p>
         <p class="btn"><a href="#">Read More</a></p>
-    </div>
+</div>
 
     <div>
         <h2>Australia & New Zealand Cruises from $1099!</h2>
@@ -35,7 +35,7 @@ include '_header.php';
         phenomenal discounts to cruise the South Pacific. Sail to New Zealand from Sydney, Australia on a 12-day cruise from just $888 per
         person plus taxes.</p>
         <p class="btn"><a href="#">Read More</a></p>
-    </div>
+    </span>
 </div>
 <?php
     include '_footer.php';
