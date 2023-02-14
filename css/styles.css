@@ -679,6 +679,8 @@ footer {
 .cruiseInfo {
   padding: 20px 2%;
   font-size: 16px; }
+  .cruiseInfo span {
+    padding: 20px 0; }
   .cruiseInfo h2 {
     font-size: 20px; }
   .cruiseInfo .btn {
