@@ -3,8 +3,7 @@ $title= "Book A Cruise";
 include '_header.php';
 ?>
 <h1 class="bookACruise">Book A Cruise</h1>
-
-<form class="cruiseForm">
+<form>
     <label for="fullName">Full name</label>
     <input type="text" id="fullName" name="fullName">
 
@@ -18,7 +17,7 @@ include '_header.php';
     <input type="state" id="state" name="state">
 
     <label for="zipcode">Zipcode</label>
-    <input type="zip" id="zipcode" name="zipcode">
+    <input type="text" id="zipcode" name="zipcode">
 
     <label for="pNumber">Phone Number</label>
     <input type="tel" id="pNumber" name="pNumber">
