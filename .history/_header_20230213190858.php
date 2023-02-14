@@ -29,7 +29,7 @@
                 </div>
                 <figure class="logo">
                     <img  src="/images/cruiseLogo.png" alt="logo"
-                srcset="/images/cruiseLogo1.png 1x, /images/cruiseLogo2.png 2x, /images/cruiseLogo3.png 3x">
+                srcset="/images/cruiseLogo1.png 1x, images/cruiseLogo2.png 2x, images/cruiseLogo3.png 3x">
                 </figure>
             </div>
             <div class="companyNumber">
@@ -43,7 +43,7 @@
         <nav>
 
             <ul id="primaryNav">
-                <li><a href="/index.php">HOME</a></li>
+                <li><a href="index.php">HOME</a></li>
                 <li><a href="#">CRUISES</a></li>
                 <li class="parent"><a href="#">AGENTS</a>
                     <ul>

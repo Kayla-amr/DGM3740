@@ -17,23 +17,23 @@ include '_header.php';
                         </div>
                         <div class="swiper-slide">
                             <picture>
-                                <source media="(min-width: 28.12rem )" srcset="/images/galleryPhoto2.jpg">
-                                <source media="(max-width: 28.12rem)" srcset="/images/galleryPhoto2_small.jpg">
-                                <img src="/images/galleryPhoto2.jpg" alt="Cruise Galler Photos">
+                                <source media="(min-width: 28.12rem )" srcset="images/galleryPhoto2.jpg">
+                                <source media="(max-width: 28.12rem)" srcset="images/galleryPhoto2_small.jpg">
+                                <img src="images/galleryPhoto2.jpg" alt="Cruise Galler Photos">
                             </picture>
                         </div>
                         <div class="swiper-slide">
                             <picture>
-                                <source media="(min-width: 28.12rem )" srcset="/images/galleryPhoto3.jpg">
-                                <source media="(max-width: 28.12rem)" srcset="/images/galleryPhoto3_small.jpg">
-                                <img src="/images/galleryPhoto3.jpg" alt="Cruise Galler Photos">
+                                <source media="(min-width: 28.12rem )" srcset="images/galleryPhoto3.jpg">
+                                <source media="(max-width: 28.12rem)" srcset="images/galleryPhoto3_small.jpg">
+                                <img src="images/galleryPhoto3.jpg" alt="Cruise Galler Photos">
                             </picture>
                         </div>
                         <div class="swiper-slide">
                             <picture>
-                                <source media="(min-width: 28.12rem )" srcset="/images/galleryPhoto4.jpg">
-                                <source media="(max-width: 28.12rem)" srcset="/images/galleryPhoto4_small.jpg">
-                                <img src="/images/galleryPhoto4.jpg" alt="Cruise Galler Photos">
+                                <source media="(min-width: 28.12rem )" srcset="images/galleryPhoto4.jpg">
+                                <source media="(max-width: 28.12rem)" srcset="images/galleryPhoto4_small.jpg">
+                                <img src="images/galleryPhoto4.jpg" alt="Cruise Galler Photos">
                             </picture>
                         </div>
                     </div>
@@ -46,28 +46,28 @@ include '_header.php';
                 <div class="articles">
                     <a href="">
                         <figure>
-                            <img src="/images/familyFun.jpg" alt="">
+                            <img src="images/familyFun.jpg" alt="">
                             <figcaption>Familiy Fun</figcaption>
                         </figure>
                     </a>
 
                     <a href="">
                         <figure>
-                            <img src="/images/dining.jpg" alt="">
+                            <img src="images/dining.jpg" alt="">
                             <figcaption>Dining</figcaption>
                         </figure>
                     </a>
 
                     <a href="">
                         <figure>
-                            <img src="/images/snorkeling.jpg" alt="">
+                            <img src="images/snorkeling.jpg" alt="">
                             <figcaption>Snorkeling</figcaption>
                         </figure>
                     </a>
 
                     <a href="">
                         <figure>
-                            <img src="/images/beach.jpg" alt="">
+                            <img src="images/beach.jpg" alt="">
                             <figcaption>Beach Relaxation</figcaption>
                         </figure>
                     </a>
@@ -81,9 +81,9 @@ include '_header.php';
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="/js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
 
-    <script type="/application/ld+json">
+    <script type="application/ld+json">
         {
             "@context": "http://schema.org",
             "@type": "TravelAgency",

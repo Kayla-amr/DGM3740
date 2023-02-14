@@ -15,7 +15,7 @@
 
 
     <!-- STYLE SHEETS -->
-    <link href="/css/styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
 
@@ -28,8 +28,8 @@
                     <h2>Cruise</h2>
                 </div>
                 <figure class="logo">
-                    <img  src="/images/cruiseLogo.png" alt="logo"
-                srcset="/images/cruiseLogo1.png 1x, /images/cruiseLogo2.png 2x, /images/cruiseLogo3.png 3x">
+                    <img  src="images/cruiseLogo.png" alt="logo"
+                srcset="images/cruiseLogo1.png 1x, images/cruiseLogo2.png 2x, images/cruiseLogo3.png 3x">
                 </figure>
             </div>
             <div class="companyNumber">
@@ -43,7 +43,7 @@
         <nav>
 
             <ul id="primaryNav">
-                <li><a href="/index.php">HOME</a></li>
+                <li><a href="index.php">HOME</a></li>
                 <li><a href="#">CRUISES</a></li>
                 <li class="parent"><a href="#">AGENTS</a>
                     <ul>

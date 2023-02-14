@@ -46,28 +46,28 @@ include '_header.php';
                 <div class="articles">
                     <a href="">
                         <figure>
-                            <img src="/images/familyFun.jpg" alt="">
+                            <img src="images/familyFun.jpg" alt="">
                             <figcaption>Familiy Fun</figcaption>
                         </figure>
                     </a>
 
                     <a href="">
                         <figure>
-                            <img src="/images/dining.jpg" alt="">
+                            <img src="images/dining.jpg" alt="">
                             <figcaption>Dining</figcaption>
                         </figure>
                     </a>
 
                     <a href="">
                         <figure>
-                            <img src="/images/snorkeling.jpg" alt="">
+                            <img src="images/snorkeling.jpg" alt="">
                             <figcaption>Snorkeling</figcaption>
                         </figure>
                     </a>
 
                     <a href="">
                         <figure>
-                            <img src="/images/beach.jpg" alt="">
+                            <img src="images/beach.jpg" alt="">
                             <figcaption>Beach Relaxation</figcaption>
                         </figure>
                     </a>
@@ -81,9 +81,9 @@ include '_header.php';
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="/js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
 
-    <script type="/application/ld+json">
+    <script type="application/ld+json">
         {
             "@context": "http://schema.org",
             "@type": "TravelAgency",
