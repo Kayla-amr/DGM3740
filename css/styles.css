@@ -689,6 +689,8 @@ footer {
     padding: 0 0 20px 0; }
   .agentInfo ul {
     list-style-type: none; }
+    .agentInfo ul li {
+      padding: 10px 0; }
 
 /*--- BOOKING PAGE ---*/
 .bookACruise {
