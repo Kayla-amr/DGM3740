@@ -670,13 +670,16 @@ footer {
     color: #f2f2f2;
     text-decoration: none; }
 
-.agentName h1 {
+.agentName {
   margin: 0;
-  padding: 10px 0;
-  font-size: 24px; }
+  padding: 20px 2%; }
+  .agentName h1 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 24px; }
 
 .agentInfo {
-  padding-bottom: 20px;
+  padding: 20px 2%;
   font-size: 16px; }
   .agentInfo h2 {
     font-size: 18px;
@@ -792,11 +795,6 @@ footer {
 
   .agentName h1 {
     font-size: 32px; }
-
-  .agentInfo {
-    font-size: 12px; }
-    .agentInfo h2 {
-      font-size: 14px; }
 
   /*end large */ }
 /* end of media query*/
