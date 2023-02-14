@@ -685,7 +685,9 @@ footer {
     font-size: 20px; }
 
 .alignBtn {
-  margin: 0; }
+  margin: 0;
+  display: flex;
+  justify-content: end; }
   .alignBtn .btn {
     background-color: #183b80;
     border-radius: 10px;
