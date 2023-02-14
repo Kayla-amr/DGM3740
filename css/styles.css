@@ -670,6 +670,22 @@ footer {
     color: #f2f2f2;
     text-decoration: none; }
 
+/*--- Cuises PAGE ---*/
+.cruiseTitle {
+  margin: 0;
+  padding: 20px 2%;
+  font-size: 24; }
+
+.cruiseInfo {
+  padding: 20px 2%;
+  font-size: 16px; }
+  .cruiseInfo h2 {
+    font-size: 20px; }
+  .cruiseInfo .btn {
+    border-radius: 10px;
+    border: none;
+    padding: 5px; }
+
 /*--- AGENTS PAGE ---*/
 .agentName {
   margin: 0;
@@ -738,6 +754,9 @@ footer {
       width: 70%; }
     .directoryInfo .moreInfo {
       grid-column: 1 /span 2; }
+
+  .cruiseTitle {
+    font-size: 32px; }
 
   .agentName {
     font-size: 32px; }
