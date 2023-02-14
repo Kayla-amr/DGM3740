@@ -1,8 +1,8 @@
 <?php
-$title= "Book A Cruise";
+$title= "Agent - Kim Taehyung";
 include '_header.php';
 ?>
-<h1>Book A Cruise</h1>
+<h1>Agent - Kim Taehyung</Header>
 <?php
     include '_footer.php';
 ?>

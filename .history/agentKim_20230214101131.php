@@ -10,14 +10,14 @@ include '_header.php';
     <p>1-800-555-1234 ext. 12</p>
 
     <h2>Working:</h2>
-    <p>Monday - Friday</p>
+    <p>Monday, Wednesday, Friday</p>
 
     <h2>Destination Specialization:</h2>
     <p>Israel, Egypt, Italy, Greece, Hawaii, Guatemala, Southern California, Orlando, Las Vegas, Bahamas,
-    Caribbean cruises.</p>
+        Caribbean cruises.</p>
 
     <h2>Office Hours:</h2>
-    <p>7:00am-5:00pm</p>
+    <p>8:00am-6:00pm</p>
 
     <h2>Biography:</h2>
     <p>I have loved travel for as long as I can remember. At the age of 12 I asked if I could fly by myself

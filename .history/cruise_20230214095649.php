@@ -1,8 +1,8 @@
 <?php
-$title= "Book A Cruise";
+$title= "Cruises";
 include '_header.php';
 ?>
-<h1>Book A Cruise</h1>
+<h1></h1>
 <?php
     include '_footer.php';
-?>
+    ?>

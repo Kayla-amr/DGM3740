@@ -44,14 +44,14 @@
 
             <ul id="primaryNav">
                 <li><a href="/index.php">HOME</a></li>
-                <li><a href="/cruise.php">CRUISES</a></li>
+                <li><a href="#">CRUISES</a></li>
                 <li class="parent"><a href="#">AGENTS</a>
                     <ul>
                         <li><a href="/agentKim.php">Kim Taehyung</a></li>
-                        <li><a href="/agentJeon.php">Jeon Jungkook</a></li>
+                        <li><a href="/">Jeon Jungkook</a></li>
                     </ul>
                 </li>
-                <li><a href="/book.php">BOOK</a></li>
+                <li><a href="#">BOOK</a></li>
             </ul>
 
             <div class="navBar">

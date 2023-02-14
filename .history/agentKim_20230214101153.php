@@ -14,7 +14,7 @@ include '_header.php';
 
     <h2>Destination Specialization:</h2>
     <p>Israel, Egypt, Italy, Greece, Hawaii, Guatemala, Southern California, Orlando, Las Vegas, Bahamas,
-    Caribbean cruises.</p>
+        Caribbean cruises.</p>
 
     <h2>Office Hours:</h2>
     <p>7:00am-5:00pm</p>

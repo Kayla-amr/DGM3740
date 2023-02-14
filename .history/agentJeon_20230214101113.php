@@ -1,23 +1,23 @@
 <?php
-$title= "Agent - Kim Taehyung";
+$title= "Agent - Jeon Jungkook";
 include '_header.php';
 ?>
 
-<h1>Agent - Kim Taehyung</h1>
+<h1>Agent - Jeon Jungkook</h1>
 <div></div>
 <div>
-<h2>Phone:</h2>
+    <h2>Phone:</h2>
     <p>1-800-555-1234 ext. 12</p>
 
     <h2>Working:</h2>
-    <p>Monday - Friday</p>
+    <p>Monday, Wednesday, Friday</p>
 
     <h2>Destination Specialization:</h2>
     <p>Israel, Egypt, Italy, Greece, Hawaii, Guatemala, Southern California, Orlando, Las Vegas, Bahamas,
-    Caribbean cruises.</p>
+        Caribbean cruises.</p>
 
     <h2>Office Hours:</h2>
-    <p>7:00am-5:00pm</p>
+    <p>8:00am-6:00pm</p>
 
     <h2>Biography:</h2>
     <p>I have loved travel for as long as I can remember. At the age of 12 I asked if I could fly by myself
@@ -32,9 +32,8 @@ include '_header.php';
         <li>"Thank you for your cheery a_tude and hard work during the planning of our tour!"
         <br>-The Smiths</li>
         <li>"Thanks for your pa`ence and efficiency. Let's do it again some`me very soon!"
-        <br>-Jane and John Westagar</li>
+<br>-Jane and John Westagar</li>
     </ul>
-
 </div>
 
 <?php

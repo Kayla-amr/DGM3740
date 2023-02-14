@@ -51,7 +51,7 @@
                         <li><a href="/agentJeon.php">Jeon Jungkook</a></li>
                     </ul>
                 </li>
-                <li><a href="/book.php">BOOK</a></li>
+                <li><a href="/">BOOK</a></li>
             </ul>
 
             <div class="navBar">
