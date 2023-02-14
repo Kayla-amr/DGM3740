@@ -101,11 +101,6 @@ nav {
 	}
 
 }
-
-.parent ul li {
-    list-style-type: none;
-}
-
 .navSearch {
 	display: flex;
 	justify-content: end;
@@ -260,20 +255,17 @@ footer {
 	h1{
 		margin: 0;
 		padding: 10px 0;
-		font-size: 32px;
+		font-size: 24px;
 	}
 
 }
 
 .agentInfo{
-	padding-bottom: 20px;
-	font-size: 16px;
+	padding: 20px 0;
+	font-size: ;
 	h2{
 		font-size: 18px;
     	padding: 10px 0;
-	}
-	p{
-		padding: 0 0 20px 0;
 	}
 	ul{
 		list-style-type: none;
