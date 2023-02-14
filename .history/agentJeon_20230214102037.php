@@ -5,7 +5,7 @@ include '_header.php';
 
 <h1 id="agentName">Agent - Jeon Jungkook</h1>
 <div></div>
-<div id="agentInfo">
+<div>
     <h2>Phone:</h2>
     <p>1-800-555-1234 ext. 12</p>
 
