@@ -679,21 +679,23 @@ footer {
 .cruiseInfo {
   padding: 2%;
   font-size: 16px; }
-  .cruiseInfo div {
+  .cruiseInfo .optionInfo {
     margin: 20px 0; }
   .cruiseInfo h2 {
     font-size: 20px; }
-  .cruiseInfo .btn {
-    background-color: #183b80;
-    border-radius: 10px;
-    border: none;
-    padding: 10px;
-    margin: 10px 0;
-    width: 100%;
-    text-align: center; }
-    .cruiseInfo .btn a {
-      color: #f2f2f2;
-      text-decoration: none; }
+  .cruiseInfo .alignBtn {
+    margin: 0; }
+    .cruiseInfo .alignBtn .btn {
+      background-color: #183b80;
+      border-radius: 10px;
+      border: none;
+      padding: 10px;
+      margin: 10px 0;
+      width: 100%;
+      text-align: center; }
+      .cruiseInfo .alignBtn .btn a {
+        color: #f2f2f2;
+        text-decoration: none; }
 
 /*--- AGENTS PAGE ---*/
 .agentName {
