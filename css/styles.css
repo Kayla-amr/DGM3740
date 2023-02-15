@@ -682,22 +682,17 @@ footer {
   .cruiseInfo .optionInfo {
     margin: 20px 0;
     display: grid;
-    grid-template-columns: 1fr 2fr;
     grid-template-rows: auto; }
     .cruiseInfo .optionInfo img {
       width: 100%;
-      grid-row: 1 / span 3;
       padding: 0 20px; }
-    .cruiseInfo .optionInfo p {
-      grid-column: 2; }
   .cruiseInfo h2 {
     font-size: 20px; }
 
 .alignBtn {
   margin: 0;
   display: flex;
-  justify-content: end;
-  grid-column: 2; }
+  justify-content: end; }
   .alignBtn .btn {
     background-color: #183b80;
     border-radius: 10px;
@@ -785,8 +780,19 @@ footer {
   .cruiseTitle {
     font-size: 32px; }
 
+  .cruiseInfo .optionInfo {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto; }
+  .cruiseInfo img {
+    grid-row: 1 / span 3; }
+  .cruiseInfo p {
+    grid-column: 2; }
   .cruiseInfo .btn {
     width: 10rem; }
+
+  .alignBtn {
+    grid-column: 2; }
 
   .agentName {
     font-size: 32px; }

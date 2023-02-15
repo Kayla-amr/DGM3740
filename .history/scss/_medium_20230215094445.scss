@@ -39,20 +39,11 @@
         .optionInfo{
             display: grid;
 		    grid-template-columns: 1fr 2fr;
-		    grid-template-rows: auto;
+		grid-template-rows: auto;
         }
-        img{
-            grid-row: 1 / span 3;
-        }
-        p{
-			grid-column: 2;
-		}
         .btn{
             width: 10rem;
         }
-    }
-    .alignBtn{
-        grid-column: 2;
     }
     .agentName{
         font-size: 32px;
