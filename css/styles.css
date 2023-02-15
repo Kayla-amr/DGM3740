@@ -545,7 +545,7 @@ nav {
   nav .navBar {
     display: flex;
     position: relative; }
-  nav .active {
+  nav li.active {
     background: #7690b5; }
 
 .parent ul li {
