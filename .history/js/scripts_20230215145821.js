@@ -42,18 +42,18 @@ var primaryNav = document.querySelectorAll("ul#primaryNav li a")
 console.log(primaryNav.length)
 
 
-// var test3 = "index.php";
+var test3 = "index.php";
 
-// var i;
-// for(i = 0; i < primaryNav.length; i++){
-//   var myPage = primaryNav[0].getAttribute("href").split('/');
-//   console.log(myPage);
+var i;
+for(i = 0; i < primaryNav.length; i++){
+  var myPage = primaryNav[0].getAttribute("href").split('/');
+  console.log(myPage);
 
-//   if(test3 === myPage){
-//     test3[i].parentNode.className = "active";
-//     test3[i].parentNode.parentNode.parentNode.className = "parent";
-//   } 
-//   else{
-//     test3[i].parentNode.className ="";
-//   }
-//  }
+  if(test3 === myPage){
+    test3[i].parentNode.className = "active";
+    test3[i].parentNode.parentNode.parentNode.className = "parent";
+  } 
+  else{
+    test3[i].parentNode.className ="";
+  }
+ }
