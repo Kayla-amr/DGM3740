@@ -45,8 +45,11 @@ if (pageId !== ""){
 
   for(i = 0; i < primaryNav.length; i++){
 
-    var currPage = (primaryNav[i].getAttribute("href").split('/'));
+    var currPage = (primaryNav[i].getAttribute("href"));
     console.log(currPage);
+
+    var currArray = currPage.split('/');
+    currArray = currArray[0];
   
     currArray = currArray.split('#')
     currArray = currArray[0];
@@ -61,7 +64,7 @@ if (pageId !== ""){
     } 
     else{
 
-      pageId[i].parentNode.className ="";
+      pageId[i].parentNode.className ="n";
 
     }
    }

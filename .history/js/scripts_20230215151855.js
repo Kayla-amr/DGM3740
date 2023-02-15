@@ -47,6 +47,7 @@ if (pageId !== ""){
 
     var currPage = (primaryNav[i].getAttribute("href").split('/'));
     console.log(currPage);
+
   
     currArray = currArray.split('#')
     currArray = currArray[0];
