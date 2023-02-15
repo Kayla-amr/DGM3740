@@ -703,17 +703,17 @@ footer {
 /*--- AGENTS PAGE ---*/
 .agentName {
   margin: 0;
-  padding: 20px 2%; }
+  padding: 20px 0 0 2%; }
   .agentName h1 {
     margin: 0;
     padding: 10px 0;
     font-size: 24px; }
 
 .agentInfo {
-  padding: 20px 2%;
+  padding: 2%;
   font-size: 16px; }
   .agentInfo img {
-    width: 50%;
+    width: -webkit-fill-available;
     margin: 10px; }
   .agentInfo h2 {
     font-size: 18px;
