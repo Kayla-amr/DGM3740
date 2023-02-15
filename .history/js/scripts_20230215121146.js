@@ -41,7 +41,7 @@ var countUl = document.querySelectorAll("ul#primaryNav li a")
 console.log(countUl)
 
 
-var test3 = "index.php";
+var test3 = "book.php";
 
 var i;
 for(i = 0; i < countUl.length; i++){
@@ -52,6 +52,6 @@ for(i = 0; i < countUl.length; i++){
     test3[i].parentNode.className = "active";
     test3[i].parentNode.parentNode.parentNode.className = "parent";
   } else{
-    test3[i].parentNode.className ="";
+    test3[i].parentNode.className =" ";
   }
  }

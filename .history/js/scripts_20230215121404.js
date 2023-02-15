@@ -41,7 +41,8 @@ var countUl = document.querySelectorAll("ul#primaryNav li a")
 console.log(countUl)
 
 
-var test3 = "index.php";
+var test3 = "index
+.php";
 
 var i;
 for(i = 0; i < countUl.length; i++){
