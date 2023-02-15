@@ -17,7 +17,7 @@ include '_header.php';
     </div>
 
     <div class="optionInfo">
-    <img src="/images/cruises2.jpg" alt="">
+    <img src="/images/cruises1.jpg" alt="">
         <h2>Hawaii & Mexico Cruises from $899!</h2>
         <p>On the other side of the world, Australia and New Zealand are full of wonders to behold! Now, more than ever before, you can get
         phenomenal discounts to cruise the South Pacific. Sail to New Zealand from Sydney, Australia on a 12-day cruise from just $888 per
@@ -29,7 +29,6 @@ include '_header.php';
     </div>
 
     <div class="optionInfo">
-    <img src="/images/cruises3.jpg" alt="">
         <h2>Florida & Cabo Cruises from $900!</h2>
         <p>On the other side of the world, Australia and New Zealand are full of wonders to behold! Now, more than ever before, you can get
         phenomenal discounts to cruise the South Pacific. Sail to New Zealand from Sydney, Australia on a 12-day cruise from just $888 per
@@ -41,7 +40,6 @@ include '_header.php';
     </div>
 
     <div class="optionInfo">
-    <img src="/images/cruises4.jpg" alt="">
         <h2>Australia & New Zealand Cruises from $1099!</h2>
         <p>On the other side of the world, Australia and New Zealand are full of wonders to behold! Now, more than ever before, you can get
         phenomenal discounts to cruise the South Pacific. Sail to New Zealand from Sydney, Australia on a 12-day cruise from just $888 per
