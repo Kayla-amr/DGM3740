@@ -272,16 +272,10 @@ footer {
 	font-size: 16px;
 	.optionInfo{
 		margin: 20px 0;
-		display: grid;
-		grid-template-columns: 1fr 2fr;
-		grid-template-rows: auto;
 		img{
 			width: 100%;
 			grid-row: 1 / span 3;
 			padding: 0 20px;
-		}
-		p{
-			grid-column: 2;
 		}
 	}
 	h2{
@@ -295,7 +289,6 @@ footer {
 	margin:0;
 	display: flex;
 	justify-content: end;
-	grid-column: 2;
 	.btn{
 		background-color: #183b80;
 		border-radius: 10px;

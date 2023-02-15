@@ -280,9 +280,7 @@ footer {
 			grid-row: 1 / span 3;
 			padding: 0 20px;
 		}
-		p{
-			grid-column: 2;
-		}
+		p
 	}
 	h2{
 		font-size: 20px;
@@ -295,7 +293,6 @@ footer {
 	margin:0;
 	display: flex;
 	justify-content: end;
-	grid-column: 2;
 	.btn{
 		background-color: #183b80;
 		border-radius: 10px;
