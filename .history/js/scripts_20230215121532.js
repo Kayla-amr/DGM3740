@@ -45,7 +45,7 @@ var test3 = "index.php";
 
 var i;
 for(i = 0; i < countUl.length; i++){
-  var myPage = countUl[0].getAttribute("href").split('/');
+  var myPage = countUl[0].getAttribute("href");
   console.log(myPage);
 
   if(test3 === myPage){
