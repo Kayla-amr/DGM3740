@@ -38,36 +38,6 @@ var pageId = splitLink[numberOfParts - 1];
 console.log('>>>>>> '+pageId)
 
 if (pageId !== ""){
-  var primaryNav = document.querySelectorAll("ul#primaryNav li a")
-  console.log(primaryNav.length)
-
-  var i;
-
-  for(i = 0; i < primaryNav.length; i++){
-
-    var currPage = (primaryNav[i].getAttribute("href"));
-    console.log(myPage);
-
-    var currArray = currPage.split('/');
-    currArray = currArray[0];
-  
-    currArray = currArray.split('#')
-    currArray = currArray[0];
-    
-    console.log ('>>> '+ currPage);
-
-    if(pageId === currPage){
-
-      pageId[i].parentNode.className = "active";
-      pageId[i].parentNode.parentNode.parentNode.className = "parent";
-
-    } 
-    else{
-
-      pageId[i].parentNode.className ="";
-
-    }
-   }
 
 }
 
@@ -75,3 +45,15 @@ if (pageId !== ""){
 // var test3 = "index.php";
 
 // var i;
+// for(i = 0; i < primaryNav.length; i++){
+//   var myPage = primaryNav[0].getAttribute("href").split('/');
+//   console.log(myPage);
+
+//   if(test3 === myPage){
+//     test3[i].parentNode.className = "active";
+//     test3[i].parentNode.parentNode.parentNode.className = "parent";
+//   } 
+//   else{
+//     test3[i].parentNode.className ="";
+//   }
+//  }

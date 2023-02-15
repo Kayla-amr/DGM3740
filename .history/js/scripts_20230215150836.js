@@ -54,17 +54,17 @@ if (pageId !== ""){
     currArray = currArray.split('#')
     currArray = currArray[0];
     
-    console.log ('>>> '+ currPage);
+    console.log ('>>> '+ currArray)
 
-    if(pageId === currPage){
+    if(test3 === currPage){
 
-      pageId[i].parentNode.className = "active";
-      pageId[i].parentNode.parentNode.parentNode.className = "parent";
+      test3[i].parentNode.className = "active";
+      test3[i].parentNode.parentNode.parentNode.className = "parent";
 
     } 
     else{
 
-      pageId[i].parentNode.className ="";
+      test3[i].parentNode.className ="";
 
     }
    }

@@ -47,24 +47,17 @@ if (pageId !== ""){
 
     var currPage = (primaryNav[i].getAttribute("href"));
     console.log(myPage);
-
-    var currArray = currPage.split('/');
-    currArray = currArray[0];
-  
-    currArray = currArray.split('#')
-    currArray = currArray[0];
     
-    console.log ('>>> '+ currPage);
+  
+    if(test3 === currPage){
 
-    if(pageId === currPage){
-
-      pageId[i].parentNode.className = "active";
-      pageId[i].parentNode.parentNode.parentNode.className = "parent";
+      test3[i].parentNode.className = "active";
+      test3[i].parentNode.parentNode.parentNode.className = "parent";
 
     } 
     else{
 
-      pageId[i].parentNode.className ="";
+      test3[i].parentNode.className ="";
 
     }
    }

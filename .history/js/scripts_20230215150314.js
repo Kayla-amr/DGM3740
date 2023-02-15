@@ -43,31 +43,6 @@ if (pageId !== ""){
 
   var i;
 
-  for(i = 0; i < primaryNav.length; i++){
-
-    var currPage = (primaryNav[i].getAttribute("href"));
-    console.log(myPage);
-
-    var currArray = currPage.split('/');
-    currArray = currArray[0];
-  
-    currArray = currArray.split('#')
-    currArray = currArray[0];
-    
-    console.log ('>>> '+ currPage);
-
-    if(pageId === currPage){
-
-      pageId[i].parentNode.className = "active";
-      pageId[i].parentNode.parentNode.parentNode.className = "parent";
-
-    } 
-    else{
-
-      pageId[i].parentNode.className ="";
-
-    }
-   }
 
 }
 

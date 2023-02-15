@@ -64,7 +64,7 @@ if (pageId !== ""){
     } 
     else{
 
-      pageId[i].parentNode.className ="";
+      test3[i].parentNode.className ="";
 
     }
    }
