@@ -50,10 +50,10 @@ if (pageId !== ""){
     var currArray = currPage.split('/');
     currArray = currArray[0];
     
-    currArray = currArray.split('/');
+    currArray = currArray.split('#');
     currArray = currArray[0];
     
-    console.log ('>>> '+ currPage);
+    console.log ('>>> '+ cur);
 
     if(pageId === currPage){
 

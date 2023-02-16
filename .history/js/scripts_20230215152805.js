@@ -45,15 +45,16 @@ if (pageId !== ""){
 
   for(i = 0; i < primaryNav.length; i++){
 
-    var currPage = (primaryNav[i].getAttribute("href"));
+    var currPage = (primaryNav[i].getAttribute("href").split('/'));
+  
     
     var currArray = currPage.split('/');
     currArray = currArray[0];
     
-    currArray = currArray.split('/');
+    currArray = currArray.split('#');
     currArray = currArray[0];
     
-    console.log ('>>> '+ currPage);
+    console.log ('>>> '+ currArray);
 
     if(pageId === currPage){
 
