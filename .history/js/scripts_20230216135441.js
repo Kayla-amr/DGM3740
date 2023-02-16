@@ -25,7 +25,6 @@ x.onclick = toggleMenu;
 
 
 ///////Assignment 2
-var document = window.document;
 var pageLocation = location.href;
 
 var splitLink = pageLocation.split('/');
@@ -36,12 +35,15 @@ var pageId = splitLink[numberOfParts - 1];
 
 if (pageId !== ""){
   var primaryNav = document.querySelectorAll("ul#primaryNav li a")
+  console.log(primaryNav.length)
 
   var i;
 
   for(i = 0; i < primaryNav.length; i++){
 
     var currPage = (primaryNav[i].getAttribute("href"));
+    
+    console.log ('>>> '+ currPage);
 
     if (pageId === currPage.split('/').pop()) {
       primaryNav[i].parentNode.className = "active";
@@ -53,11 +55,3 @@ if (pageId !== ""){
   }
 }
 
-
-
-
-
-
-// var test3 = "index.php";
-
-// var i;

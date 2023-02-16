@@ -25,7 +25,6 @@ x.onclick = toggleMenu;
 
 
 ///////Assignment 2
-var document = window.document;
 var pageLocation = location.href;
 
 var splitLink = pageLocation.split('/');
@@ -53,11 +52,3 @@ if (pageId !== ""){
   }
 }
 
-
-
-
-
-
-// var test3 = "index.php";
-
-// var i;
