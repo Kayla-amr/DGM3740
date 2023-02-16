@@ -524,15 +524,14 @@ header {
       header .companyNL figure.logo img {
         width: 100px;
         padding: 5px; }
-    header .companyNL .companyNumber p {
-      text-align: right; }
   header .companyNumber {
     padding: 20px 0;
     margin: 0;
     grid-column: 8;
     font-size: 18px;
     display: flex;
-    flex-direction: column-reverse; }
+    flex-direction: column-reverse;
+    text-align: right; }
 
 /*--- PRIMARY NAV ---*/
 .navWrapper {

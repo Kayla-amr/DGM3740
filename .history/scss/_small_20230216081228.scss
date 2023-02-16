@@ -72,6 +72,9 @@ header {
 				padding: 5px;
 			}
 		}
+		.cop{
+			text-align: right;
+		}
 	}
 	.companyNumber {
 		padding: 20px 0;
@@ -80,10 +83,7 @@ header {
 		font-size: 18px;
 		display: flex;
 		flex-direction: column-reverse;
-		text-align: right;
 	}
-
-	
 }
 
 /*--- PRIMARY NAV ---*/
