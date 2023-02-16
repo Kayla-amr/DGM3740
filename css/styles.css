@@ -754,7 +754,8 @@ footer {
   .cruiseForm select {
     border-radius: 5px;
     border: none;
-    padding: 10px; }
+    padding: 10px;
+    margin: 10px 0; }
   .cruiseForm button {
     border-radius: 10px;
     border: none;
