@@ -687,7 +687,7 @@ footer {
     grid-template-rows: auto; }
     .cruiseInfo .optionInfo img {
       width: 100%;
-      padding: 0 20px 0 0; }
+      padding: 0; }
   .cruiseInfo h2 {
     font-size: 20px; }
 
@@ -787,7 +787,8 @@ footer {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto; }
   .cruiseInfo img {
-    grid-row: 1 / span 3; }
+    grid-row: 1 / span 3;
+    padding: 0 20px 0 0; }
   .cruiseInfo p {
     grid-column: 2; }
   .cruiseInfo .btn {
