@@ -687,7 +687,7 @@ footer {
     grid-template-rows: auto; }
     .cruiseInfo .optionInfo img {
       width: 100%;
-      padding: 2%; }
+      padding: 0 2%; }
   .cruiseInfo h2 {
     font-size: 20px; }
 
