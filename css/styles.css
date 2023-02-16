@@ -687,7 +687,7 @@ footer {
     grid-template-rows: auto; }
     .cruiseInfo .optionInfo img {
       width: 100%;
-      padding: 0; }
+      padding: 2%; }
   .cruiseInfo h2 {
     font-size: 20px; }
 
@@ -787,7 +787,6 @@ footer {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto; }
   .cruiseInfo img {
-    padding: 0 20px 0 0;
     grid-row: 1 / span 3; }
   .cruiseInfo p {
     grid-column: 2; }
@@ -895,9 +894,6 @@ footer {
       width: 100%; }
     .directoryInfo .moreInfo {
       grid-column: 3; }
-
-  .cruiseInfo .optionInfo img {
-    padding: 0 20px 0 0; }
 
   /*end large */ }
 /* end of media query*/
