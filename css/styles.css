@@ -787,8 +787,8 @@ footer {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto; }
   .cruiseInfo img {
-    grid-row: 1 / span 3;
-    padding: 0 20px 0 0; }
+    padding: 0 20px 0 0;
+    grid-row: 1 / span 3; }
   .cruiseInfo p {
     grid-column: 2; }
   .cruiseInfo .btn {
@@ -895,6 +895,9 @@ footer {
       width: 100%; }
     .directoryInfo .moreInfo {
       grid-column: 3; }
+
+  .cruiseInfo .optionInfo img {
+    padding: 0 20px 0 0; }
 
   /*end large */ }
 /* end of media query*/
